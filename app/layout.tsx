@@ -6,7 +6,7 @@ console.log("Time Stamp",timestamp)
 export const metadata = {
   metadataBase: new URL(
     process.env.NODE_ENV === 'production'
-      ? 'https://abhiramiwedsamal.vercel.app'
+      ? 'https://amalwedsabhirami.vercel.app'
       : 'http://localhost:3000'
   ),
   title: 'Amal & Abhirami — Wedding Invitation',
@@ -16,13 +16,13 @@ export const metadata = {
     description: 'Oct 19, 2025 || Join Our Journey ',
     images: [
       {
-        url: `https://abhiramiwedsamal.vercel.app/og-v1.png?t=${timestamp}`,
+        url: `https://amalwedsabhirami.vercel.app/og-v1.png?t=${timestamp}`,
         width: 1200,
         height: 630,
         alt: 'Amal & Abhirami Wedding Invitation'
       }
     ],
-    url: 'https://abhiramiwedsamal.vercel.app/',
+    url: 'https://amalwedsabhirami.vercel.app/',
     type: 'website',
   },
 };
